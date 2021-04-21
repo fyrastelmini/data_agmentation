@@ -71,7 +71,7 @@ tf.random.set_seed(seed = 42)
 
 parser = argparse.ArgumentParser(description = 'SETTING OPTION')
 parser.add_argument("--model", type = str, default = "naive_dcunet16",         help = "Input model type") #naive
-parser.add_argument("--load", type = str, default = "./saves/ndcunet16_1403.h5", help = "Input save model file")
+parser.add_argument("--load", type = str, default = "./saves/ndcunet16_1469.h5", help = "Input save model file")
 parser.add_argument("--data",  type = str, default = "./datasets/fn/",    help = "Input load unseen speech")
 parser.add_argument("--save",  type = str, default = "./model_pred/",      help = "Input save predict speech")
 args = parser.parse_args()
