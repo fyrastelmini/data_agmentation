@@ -9,7 +9,7 @@ Requirements:
 -pydub
 
 Usage: 
-copy the .csv that contains the file locations (in the first column) to directory as "filename.csv" or just change line 96 in run.py
-replicate the directories of the inputs inside of "output/"
->python run.py
-results will be inside "output/"
+- copy the .csv that contains the file locations (in the first column) to directory as "filename.csv" or just change line 96 in run.py
+- replicate the directories of the inputs inside of "output/"
+- >python run.py
+- results will be inside "output/"
