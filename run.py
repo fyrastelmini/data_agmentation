@@ -46,7 +46,7 @@ def get_file_list (file_path):
 def inference (path_list, save_path):
 
       for index1, speech_file_path in tqdm(enumerate (path_list),disable=True):
-            _, unseen_noisy_speech = scipy.io.wavfile.read(speech_file_path) #7achwa ici
+            _, unseen_noisy_speech = scipy.io.wavfile.read(speech_file_path) 
             restore = []
             
             for index2 in range (int(len(unseen_noisy_speech) / speech_length)):
